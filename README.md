@@ -1,0 +1,2 @@
+# just-another-text-editor
+A simple text editor that runs in the any web browser that also can be installed locally on Windows, macOS, iOS and Android based systems. This is a single-page application (SPA) that meets the progressive web applciation (PWA) criteria. Levaraging IndexedDB, this app features a number of data persistence techniques. This capability provides data redundancy as well as the ability to work offline without an internet connection.
