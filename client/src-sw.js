@@ -3,12 +3,11 @@
 // This strategy will first check the cache for a response, and if it finds one, it will return it.
 
 const { offlineFallback, warmStrategyCache } = require("workbox-recipes");
-const { CacheFirst } = require("workbox-strategies");
+const { CacheFirst, StaleWhileRevalidate } = require("workbox-strategies");
 const { registerRoute } = require("workbox-routing");
 const { CacheableResponsePlugin } = require("workbox-cacheable-response");
 const { ExpirationPlugin } = require("workbox-expiration");
 const { precacheAndRoute } = require("workbox-precaching/precacheAndRoute");
-const { StaleWhileRevalidate } = require("workbox-strategies");
 
 // The precacheAndRoute() method takes an array of URLs to precache.
 // The self._WB_MANIFEST is an array that contains the list of URLs to precache.
