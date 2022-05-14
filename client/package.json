@@ -1,8 +1,12 @@
 {
   "name": "JATE",
   "scripts": {
+    "COMMENT1" : "Spins up the webpack dev environment with HMR",
     "dev": "webpack-dev-server",
+
     "build": "webpack --mode production",
+
+    "COMMENT2": "Watch files and recompile if changes occur",
     "start": "webpack --watch"
   },
   "author": "2U",

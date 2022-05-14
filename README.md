@@ -6,7 +6,7 @@
 ![badmath](https://img.shields.io/github/forks/qkeddy/just-another-text-editor)
 
 ## Description
-A simple text editor that runs in the any web browser that also can be installed locally on Windows, macOS, iOS and Android based systems. This is a single-page application (SPA) that meets the progressive web application (PWA) criteria. Leveraging IndexedDB, this app features a number of data persistence techniques. This capability provides data redundancy as well as the ability to work offline without an internet connection.
+A simple text editor that runs in any web browser and can also be installed locally on Windows, macOS, iOS and Android based systems. This is a single-page application (SPA) that meets the progressive web application (PWA) criteria. Leveraging IndexedDB, this app features a number of data persistence techniques. This capability provides data redundancy as well as the ability to work offline without an internet connection.
 
 
 A live version of this application can be viewed [here](https://png-jate.herokuapp.com/).

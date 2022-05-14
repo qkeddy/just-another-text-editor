@@ -4,11 +4,22 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "COMMENT1": "With the `run npm dev`, the webpack dev server will execute with the hot module replacement",
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+
+    "COMMENT2": "Builds the `dist` folder and serves up files in `../client/dist/index.html`",
     "start": "npm run build && cd server && node server.js",
+
+    "COMMENT3": "`--ignore client` is a flag to not listen for changes in the client",
     "server": "cd server nodemon server.js --ignore client",
+
+    "COMMENT4": "Creates the `dist` folder from the client directory",
     "build": "cd client && npm run build",
+
+    "COMMENT5": "Can add the server built as well, but need to have the `concurrency` package",
     "install": "cd client && npm install",
+
+    "COMMENT6": "CD to the `client` directory and execute the `start` script",
     "client": "cd client && npm start"
   },
   "keywords": [],
